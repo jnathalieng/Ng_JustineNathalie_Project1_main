@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/* CSS Doc */
+
+body {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;  
+    font-size: 16px;
+    color: orange;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+#container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 900;
+    font-size: 38px;
+    line-height: 45px;
+    letter-spacing: -1px;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 0 navy; 
+    text-align: center;
+    color: orange;
+}
+
+
+h3 {
+    font-family: "Cal Sans", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 0 orange; 
+    text-align: center;
+    text-decoration: underline;
+    color: navy;
+}
+
+p { 
+    font-family: "Roboto Mono", monospace;
+    font-weight: 400; 
+    font-style: normal;
+    line-height: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: navy; 
+}
+
+.highlight-word {
+    color: navy;
+    background-color: orange;
+    border-radius: 5px;
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 34px;
+    text-shadow: 1px 1px 0 white; 
+    padding: 14px 6px;
+    margin-right: 8px;
+    float: left;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
